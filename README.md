@@ -8,7 +8,8 @@ Final project for the Building AI course
 
 ## Summary
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
+Jeg foreslår en AI-basert løsning som digitaliserer hele søknadsprosessen for pass og ID-kort, slik at man slipper å skrive ut og levere papirdokumenter. AI hjelper brukeren med å fylle ut søknaden riktig, validere opplastede dokumenter og forstå regelverk. Målet er å redusere papirbruk, spare tid og gjøre offentlige tjenester mer miljøvennlige og brukervennlige.
+
 
 
 ## Background
