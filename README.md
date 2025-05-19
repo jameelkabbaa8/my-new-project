@@ -81,10 +81,9 @@ Tilgjengelighet for personer med nedsatt funksjonsevne
 Datasikkerhet og personvern må være ivaretatt fullt ut
 
 Mulighet for menneskelig støtte dersom AI ikke forstår behovet
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
 
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
+
+
 
 This is how you create code examples:
 ```
