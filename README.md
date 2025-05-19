@@ -85,48 +85,86 @@ Mulighet for menneskelig støtte dersom AI ikke forstår behovet
 
 
 
-This is how you create code examples:
+🧮 Eksempel: Hvor mye papir og miljø vi sparer med AI-løsningen
+
 ```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
+def calculate_environmental_savings(num_applications):
+    # Antagelser:
+    pages_per_application = 5       # Hvor mange A4-ark én søknad krever
+    grams_per_page = 5              # Ett ark veier ca. 5 gram
+    pages_per_tree = 8333           # Ett tre gir ca. 8333 A4-sider papir
 
-   totPop = sum(pop)
-   totFish = sum(fishers)
+    total_pages = num_applications * pages_per_application
+    total_paper_grams = total_pages * grams_per_page
+    total_kg_paper = total_paper_grams / 1000
+    trees_saved = total_pages / pages_per_tree
 
-   # write your solution here
+    print(f"Antall digitale søknader: {num_applications}")
+    print(f"Papir spart: {total_pages} sider (~{total_kg_paper:.2f} kg)")
+    print(f"Trær spart: {trees_saved:.2f} trær")
 
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
+# Eksempel: 100 000 digitale søknader
+calculate_environmental_savings(100000)
 
-main()
 ```
+Antall digitale søknader: 100000
+Papir spart: 500000 sider (~2500.00 kg)
+Trær spart: 60.00 trær
+
+📌 Forklaring:
+Hver papirsøknad bruker f.eks. 5 sider (kan justeres).
+
+Vi beregner hvor mye papir og vekt dette tilsvarer.
+
+Deretter regner vi hvor mange trær det tilsvarer å ikke bruke.
 
 
-## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
-
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+Selv om løsningen digitaliserer søknadsprosessen og reduserer papirbruk betydelig, løser den ikke alle utfordringer knyttet til offentlige tjenester. Her er noen begrensninger og hensyn:
 
-## What next?
+❗ Begrensninger:
+Digital tilgang og ferdigheter: Ikke alle har tilgang til internett, datamaskiner eller har digital kompetanse nok til å bruke AI-verktøy på egen hånd.
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+Avhengighet av datasystemer: Hvis systemet går ned eller opplever feil, kan det føre til forsinkelser og frustrasjon.
+
+Språk og kulturforståelse: Selv med flerspråklig støtte, kan AI misforstå nyanser, dialekter eller spesielle behov i enkelte søknader.
+
+Unntakssaker: Kompleks eller atypisk dokumentasjon (f.eks. utenlandske dokumenter eller nødsituasjoner) kan være vanskelig for AI å behandle korrekt.
+
+⚖️ Etiske hensyn:
+Personvern: Søknader om pass og ID inneholder svært sensitive personopplysninger. Løsningen må følge strenge GDPR-krav og sørge for sikker databehandling og lagring.
+
+Bias og ulik behandling: AI må trenes på representative datasett for å unngå skjev behandling basert på språk, bakgrunn eller dokumenttype.
+
+Menneskelig støtte: Det må alltid være mulig å kontakte et menneske for hjelp – AI bør ikke være eneste inngang.
+
+Hva nå?
+Dette prosjektet har potensial til å bli en fullverdig offentlig tjeneste, og kan også utvides til søknader om førerkort, bostøtte, studielån og andre offentlige dokumenter – alt papirløst og AI-støttet.
+
+For å ta prosjektet videre trenger jeg:
+
+Tekniske ferdigheter: Samarbeid med utviklere som har erfaring med kunstig intelligens, maskinlæring (NLP, OCR) og sikker databehandling.
+
+Brukerdesign (UX/UI): For å sikre at løsningen er enkel å bruke for alle, inkludert eldre og personer med lav digital kompetanse.
+
+Offentlig samarbeid: Kontakt med statlige etater (f.eks. politiet, Skatteetaten eller Altinn) som kan pilotere løsningen i praksis.
+
+Datasett: Tilgang til realistiske, anonymiserte søknadsdata for å trene og teste AI-systemet på en sikker og etisk måte.
+
+Etisk rådgivning og juss: For å sikre at personvern, sikkerhet og tilgjengelighet ivaretas i hele prosessen.
 
 
-## Acknowledgments
 
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+Dette prosjektet er inspirert av ønsket om å gjøre offentlige tjenester mer miljøvennlige, effektive og tilgjengelige for alle.
+
+Takk til:
+
+Elements of AI for å ha inspirert meg til å tenke kreativt rundt bruk av kunstig intelligens i samfunnet.
+
+FNs bærekraftsmål, spesielt mål 13 (Stoppe klimaendringene), som motiverte fokuset på papirreduksjon og digitalisering.
+
+Informasjon om papirforbruk og miljøpåvirkning er basert på åpne kilder fra WWF og The World Counts.
+
+Illustrasjonsideen om AI og miljø ble utviklet med hjelp av OpenAI ChatGPTs bildegenerering, og brukes kun i konseptuell og ikke-kommersiell sammenheng.
