@@ -39,10 +39,48 @@ Med en AI-assistent kan hele prosessen bli mer tilgjengelig, effektiv og bærekr
 
 ## How is it used?
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
+Hvordan brukes det?
 
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
+Løsningen er en AI-drevet digital assistent som guider brukeren gjennom hele prosessen med å søke om pass, ID-kort eller lignende offentlige dokumenter – uten papir. Brukeren logger inn på en trygg offentlig nettside (for eksempel Altinn eller politiets passportal), og får hjelp av AI til å:
+
+Forstå kravene (f.eks. nødvendige dokumenter, bildekrav, gyldighet)
+
+Fylle ut søknadsskjemaet korrekt, basert på naturlig språkdialog
+
+Laste opp dokumenter (fødselsattest, bostedsbevis, osv.), som AI automatisk tolker og validerer
+
+Kontrollere søknaden for feil eller mangler før innsending
+
+Få bekreftelse og følge saken digitalt
+
+Når er løsningen nyttig?
+Når man søker om pass eller ID og vil unngå unødvendig utskrift og fysisk fremmøte for dokumentinnlevering.
+
+Når man ønsker å spare tid og få veiledning underveis i en ellers tungvint søknadsprosess.
+
+Når man vil bidra til lavere klimaavtrykk i offentlige tjenester.
+
+Hvem er brukerne?
+Privatpersoner som søker om pass, ID-kort, førerkort eller andre offisielle dokumenter.
+
+Spesielt nyttig for:
+
+Personer med begrenset digital erfaring
+
+Innbyggere i distriktene
+
+Utenlandsboende som søker om dokumenter via konsulat/ambassade
+
+Miljøbevisste brukere som ønsker papirløse løsninger
+
+Brukerbehov og hensyn:
+Enkel og trygg veiledning på flere språk
+
+Tilgjengelighet for personer med nedsatt funksjonsevne
+
+Datasikkerhet og personvern må være ivaretatt fullt ut
+
+Mulighet for menneskelig støtte dersom AI ikke forstår behovet
 ![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
 
 If you need to resize images, you have to use an HTML tag, like this:
