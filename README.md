@@ -14,12 +14,27 @@ Jeg foreslår en AI-basert løsning som digitaliserer hele søknadsprosessen for
 
 ## Background
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
+Offentlige tjenester som søknad om pass, ID-kort og oppholdstillatelser krever ofte at brukeren skriver ut søknader og dokumenter på papir, kun for å levere dem fysisk og få dem scannet inn igjen. Dette er unødvendig både for brukeren og miljøet, spesielt i en tid hvor digital teknologi og sikker datahåndtering gjør full digitalisering mulig.
 
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
+Ved å bruke kunstig intelligens kan vi forenkle og forbedre søknadsprosessen samtidig som vi kutter all papirbruk. En AI-basert løsning kan veilede brukeren i sanntid, tolke dokumenter, validere innhold, og sikre at alt er korrekt før innsending – helt digitalt.
+
+Problemer denne løsningen adresserer:
+
+❌ Unødvendig papirbruk og miljøbelastning
+
+❌ Tidsbruk og frustrasjon ved å måtte skrive ut og levere dokumenter fysisk
+
+❌ Risiko for feil eller mangler i manuelle søknader
+
+❌ Lite brukervennlige og tungvinte søknadsprosesser
+
+❌ Begrenset tilgjengelighet for personer med lav digital kompetanse
+
+❌ Språkbarrierer eller misforståelser i skjemaene
+
+❌ Ineffektiv saksbehandling hos offentlige etater
+
+Med en AI-assistent kan hele prosessen bli mer tilgjengelig, effektiv og bærekraftig.
 
 
 ## How is it used?
